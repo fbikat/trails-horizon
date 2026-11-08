@@ -64,6 +64,12 @@ It passes horizon-mods' `native.py check` on that commit.
 `tools/package.py` is used instead of horizon-mods' packager because that one leaves out `mixins/<id>/data/`, where
 the textures are.
 
+## Known issues
+
+- The textures use Horizon's shared mod image slot (`horizon/modimage`). Another mod that uploads its own image
+  there will clash with the trail textures.
+- Paws can appear while flying just above the ground.
+
 ## Licence
 
 MIT, see [LICENSE](LICENSE).
