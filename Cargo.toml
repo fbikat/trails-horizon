@@ -1,0 +1,10 @@
+[package]
+name = "horizon-mod-trails"
+version = "1.0.0"
+edition = "2024"
+license = "MIT"
+publish = false
+description = "Client-side paw prints, particles, lines and ribbons for Horizon."
+
+[lib]
+path = "mixins/trails/runtime.rs"
