@@ -64,16 +64,6 @@ It passes horizon-mods' `native.py check` on that commit.
 `tools/package.py` is used instead of horizon-mods' packager because that one leaves out `mixins/<id>/data/`, where
 the textures are.
 
-## Differences from the Fabric version
-
-- No slider screen: settings are buttons on Horizon's mod page, plus `/trails set` for exact values and custom
-  colours. K toggles trails instead of opening a screen.
-- Standing on the ground is read from block collision under your feet, so paws can appear while flying just above
-  the ground.
-- Lines use Horizon's line primitives, which aren't lightmapped; they are darkened by the local light level instead.
-- Ribbons use one colour per segment.
-- The textures use Horizon's shared mod image slot (`horizon/modimage`); another mod uploading to it will clash.
-
 ## Licence
 
 MIT, see [LICENSE](LICENSE).
